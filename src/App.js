@@ -1,10 +1,14 @@
-import './App.css';
-import Game from './components/tic-tac-toe/Game';
+import "./App.css";
+import Game from "./components/tic-tac-toe/Game";
+import FirebaseApp from "./firebase/FirebaseApp";
+import FirebaseAuth from "./firebase/FirebaseAuth";
 
 function App() {
   return (
     <div className="App">
-     <Game />
+      {/* <Game /> */}
+      {/* <FirebaseApp></FirebaseApp> */}
+      <FirebaseAuth></FirebaseAuth>
     </div>
   );
 }
